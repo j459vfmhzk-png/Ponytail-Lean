@@ -1,0 +1,10 @@
+# Local benchmark artefacts and sensitive machine-specific data
+benchmarks/results/
+benchmarks/private/
+*.local.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.DS_Store

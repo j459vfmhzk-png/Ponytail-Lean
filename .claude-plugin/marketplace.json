@@ -1,0 +1,14 @@
+{
+  "name": "leantail-marketplace",
+  "description": "Minimal, manually invoked Claude Code coding skill",
+  "owner": {
+    "name": "LeanTail contributors"
+  },
+  "plugins": [
+    {
+      "name": "leantail",
+      "source": "./plugins/leantail",
+      "description": "Manual, minimal coding guidance with no plugin hooks or telemetry"
+    }
+  ]
+}
